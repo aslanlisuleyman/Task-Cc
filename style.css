@@ -214,6 +214,7 @@ li {
   .fourth__section__left{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
   .fourth__section__left img{
     width: 295px;
@@ -244,6 +245,7 @@ padding-bottom: 20px;
   }
   .fourth__section__right{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     width: 1240px;
@@ -422,6 +424,7 @@ padding-bottom: 20px;
 
 .third__section__left__main{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 23px;
@@ -509,4 +512,18 @@ font-family: 'Poppins', sans-serif;
 display: flex;
 align-items: center;
 gap: 5px;
+}
+
+ @media only screen and (min-width: 1100px) and (max-width: 1450px){
+  .third__section .third__section__left .carousel {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1450px){
+  .third__sectionn .third__section__left .carousell {
+        display: none;
+    }
 }
